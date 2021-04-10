@@ -160,7 +160,7 @@ li:nth-last-child(1) {
     color: white;
     font-size: 65px;
     position: absolute;
-    bottom: 5%;
+    bottom: -9%;
     text-align: center;
     width: 100%;
     z-index: 999;
