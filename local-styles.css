@@ -22,6 +22,9 @@ ul {
 }
 
 li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: left;
     height: 72px;
     padding:0 8px;
@@ -50,7 +53,9 @@ li:nth-last-child(1) {
     background: #fdb715;
     text-align: center;
     color: #040502;
-    padding: 20px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .close-button {
@@ -78,6 +83,7 @@ li:nth-last-child(1) {
 
 .course-info {
     display: flex; /* shld already be flex - belt & suspenders */
+    background-color: #efefef;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -127,7 +133,7 @@ li:nth-last-child(1) {
 }
 
 .card-cta {
-    
+
 }
 
 #menu {
@@ -140,15 +146,27 @@ li:nth-last-child(1) {
 }
 
 #menu img {
+    float: left;
     background-color: #e33e42;
     padding: 10px 25px;
+align-items: center;
+justify-content: center;
+display: flex;
+height: 52px;
+/* padding: 0 8px; */
 }
 
 #menu h1 {
+    float: left;
     display: inline-block;
     font-family: 'Crimson Text','Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
     font-weight: 400;
     margin-bottom: 0;
+    height: 72px;
+    padding: 0 8px;
+    display: flex;
+align-items: center;
+justify-content: center;
 }
 
 nav {
