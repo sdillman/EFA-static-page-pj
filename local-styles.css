@@ -119,12 +119,17 @@ li:nth-last-child(1) {
 
 .cards {
     display: flex;
-    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .card {
-    display: flex;
-    flex-direction: row;
+    width: 32.75%;
 }
 
 .card a {
@@ -159,6 +164,10 @@ li:nth-last-child(1) {
     text-align: center;
     width: 100%;
     z-index: 999;
+}
+
+.down-arrow:hover {
+    color: #e33e42;
 }
 
 #menu {
@@ -223,7 +232,7 @@ header {
 }
 .video-banner {
     position: absolute;
-    z-index: 999;
+    z-index: 99;
     /* position: relative; */
     top: 50%;
     left: 22%;
