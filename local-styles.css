@@ -1,7 +1,7 @@
-/* 
+
 *, *::before, *::after {
     box-sizing: border-box;
-} */
+}
 
 * {
     outline: 1px solid red;
@@ -159,6 +159,7 @@ li:nth-last-child(1) {
 
 .card .cta {
     position: absolute;
+    display: block;
     bottom: 0;
     width: 100%;
     background: #e33e42;
@@ -166,6 +167,7 @@ li:nth-last-child(1) {
     text-align: center;
     padding: .5em;
     font-weight: 700;
+    font-size: 21px;
 }
 
 .card-innards p {
@@ -178,10 +180,10 @@ li:nth-last-child(1) {
     color: white;
     font-size: 65px;
     position: absolute;
-    bottom: -15%;
+    bottom: -7%;
     text-align: center;
     width: 100%;
-    z-index: 999;
+    z-index: 99;
 }
 
 .down-arrow:hover {
@@ -202,11 +204,10 @@ li:nth-last-child(1) {
     float: left;
     background-color: #e33e42;
     padding: 10px 25px;
-align-items: center;
-justify-content: center;
-display: flex;
-height: 52px;
-/* padding: 0 8px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 72px;
 }
 
 #menu h1 {
