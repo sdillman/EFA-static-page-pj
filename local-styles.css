@@ -90,7 +90,7 @@ li:nth-last-child(1) {
     flex-wrap: wrap;
     justify-content: center;
     border: 1px solid blue;
-    padding-top: 80px;
+    padding: 80px 0;
 }
 
 .course-info h2 {
@@ -126,15 +126,19 @@ li:nth-last-child(1) {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    height: 414px;
 }
 
 .card {
+    position: relative;
     background-color:#fff;
     width: 32.5%;
+    height: 100%;
 }
 
 .card-innards {
     margin: 10px 20px 0 20px;
+    height: 100%;
 }
 
 .card a {
@@ -153,7 +157,10 @@ li:nth-last-child(1) {
     text-transform: none;
 }
 
-.card-innards .cta {
+.card .cta {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background: #e33e42;
     color: white;
     text-align: center;
@@ -171,7 +178,7 @@ li:nth-last-child(1) {
     color: white;
     font-size: 65px;
     position: absolute;
-    bottom: -9%;
+    bottom: -15%;
     text-align: center;
     width: 100%;
     z-index: 999;
