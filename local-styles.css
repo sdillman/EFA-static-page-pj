@@ -3,9 +3,9 @@
     box-sizing: border-box;
 }
 
-* {
+/* * {
     outline: 1px solid red;
-    }
+    } */
 
 body {
     display: flex;
@@ -88,7 +88,6 @@ section {
 }
 
 .course-info {
-    /* display: flex; shld already be flex - belt & suspenders */
     background-color: #efefef;
     flex-direction: row;
     flex-wrap: wrap;
@@ -227,7 +226,6 @@ section {
     font-family: 'Crimson Text','Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
     font-weight: 400;
     font-size: 20px;
-    /* height: 70px; */
     padding: 20px 8px 0 20px;
     align-items: center;
     justify-content: center;
@@ -256,7 +254,7 @@ header {
 
 .video-parent {
     position: relative;
-    padding-top: 120px;
+    padding-top: 119px;
     width: 100%;
 }
 .video-banner {
