@@ -92,7 +92,6 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid blue;
     padding: 80px 0;
 }
 
